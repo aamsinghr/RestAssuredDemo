@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+  <configuration>
+    <!-- report theme -->
+    <!-- standard, dark -->
+    <theme>standard</theme>
+  
+    <!-- document encoding -->
+    <!-- defaults to UTF-8 -->
+    <encoding>UTF-8</encoding>
+    
+    <!-- protocol for script and stylesheets -->
+    <!-- defaults to https -->
+    <protocol>https</protocol>
+    
+    <!-- title of the document -->
+    <documentTitle>Rest API Test Reoprt</documentTitle>
+    
+    <!-- report name - displayed at top-nav -->
+    <reportName><image id="Logo">
+		<![CDATA[	
+		<img src='https://agency.reuters.com/content/dam/openweb/images/brand-assets/tr-logos/tr_ahz_rgb_pos.png/_jcr_content/renditions/original' alt="Thomson_Reuters"/>
+		]]>
+	</image></reportName>
+    
+    <!-- location of charts in the test view --><!-- top, bottom -->
+        <testViewChartLocation>bottom</testViewChartLocation>
+      
+    <!-- report headline - displayed at top-nav, after reportHeadline -->
+    <reportHeadline></reportHeadline>
+    
+    <!-- global date format override -->
+    <!-- defaults to yyyy-MM-dd -->
+    <dateFormat>dd-MM-yyyy</dateFormat>
+    
+    <!-- global time format override -->
+    <!-- defaults to HH:mm:ss -->
+    <timeFormat>HH:mm:ss</timeFormat>
+    
+    <!-- custom javascript -->
+    <scripts>
+      <![CDATA[
+        $(document).ready(function() {
+          
+        });
+      ]]>
+    </scripts>
+    
+    <!-- custom styles -->
+    <styles>
+   <![CDATA[
+       .report-name { padding-left: 0px; } .report-name > img {float: right;height: 100%;margin-left: 1%;margin-right: 1%; margin-top: 0px;width: 18%;}
+       
+        ]]>
+   </styles>
+  </configuration>
+</extentreports>

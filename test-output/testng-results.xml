@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5276" started-at="2019-04-03T09:54:37Z" finished-at="2019-04-03T09:54:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5276" started-at="2019-04-03T09:54:37Z" finished-at="2019-04-03T09:54:43Z">
+      <class name="RestAssuredDemo.TestRequests">
+        <test-method status="PASS" signature="roundTest()[pri:0, instance:RestAssuredDemo.TestRequests@60c6f5b]" name="roundTest" duration-ms="3776" started-at="2019-04-03T15:24:38Z" finished-at="2019-04-03T15:24:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roundTest -->
+        <test-method status="PASS" signature="seriesTest()[pri:0, instance:RestAssuredDemo.TestRequests@60c6f5b]" name="seriesTest" duration-ms="1077" started-at="2019-04-03T15:24:41Z" finished-at="2019-04-03T15:24:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seriesTest -->
+      </class> <!-- RestAssuredDemo.TestRequests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
