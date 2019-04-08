@@ -2,3 +2,7 @@
 2019-04-03 15:24:41,916 [main] INFO RestAssuredDemo.TestRequests - test 2 ends
 2019-04-03 15:24:42,502 [main] INFO RestAssuredDemo.TestRequests - test 1 is started
 2019-04-03 15:24:42,996 [main] INFO RestAssuredDemo.TestRequests - test 1 ends
+2019-04-04 09:40:48,215 [main] INFO RestAssuredDemo.TestRequests - test 2 is started
+2019-04-04 09:40:51,394 [main] INFO RestAssuredDemo.TestRequests - test 2 ends
+2019-04-04 09:40:51,853 [main] INFO RestAssuredDemo.TestRequests - test 1 is started
+2019-04-04 09:40:52,277 [main] INFO RestAssuredDemo.TestRequests - test 1 ends
